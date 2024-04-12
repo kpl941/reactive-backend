@@ -1,13 +1,13 @@
-package com.thepracticaldeveloper.reactivebackend;
+package com.thepracticaldeveloper.reactiveweb;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactiveBackendApplication {
+public class ReactiveWebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReactiveBackendApplication.class, args);
+		SpringApplication.run(ReactiveWebApplication.class, args);
 	}
-
 }
